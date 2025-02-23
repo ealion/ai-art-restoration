@@ -1,5 +1,9 @@
+
 streamlit
 opencv-python-headless
 torch
+Pillow
 basicsr
+realesrgan
 torchvision
+nest-asyncio
