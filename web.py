@@ -3,6 +3,12 @@ import cv2
 import torch
 import os
 from PIL import Image
+import sys
+
+sys.path.append("basicsr")
+sys.path.append("realesrgan")
+sys.path.append("torchvision")
+
 from basicsr.archs.rrdbnet_arch import RRDBNet
 from realesrgan import RealESRGANer
 
